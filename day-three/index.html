@@ -2,19 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=10" />
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
     <title>Day Three</title>
   </head>
   <body>
-    <main>
-      <section class="merry-card">
-        <i></i>
-        <h1>Merry Christmas</h1>
+    <main class="flex">
+      <section class="merry-card flex">
+        <i class="fa-solid fa-tree tree"></i>
+        <h1>Merry Christmas!</h1>
         <p>You completed all your December's tasks</p>
         <p>So decided to get you a gift:</p>
-        <p>50% off on your Yearly premium plan</p>
+        <p class="fifty-off">50% off on your Yearly premium plan</p>
+        <button onclick="window.alert('Gift Granted')">GET YOUR GIFT</button>
+        <i class="fa-solid fa-x close" onclick="window.alert('Good bye!')"></i>
       </section>
     </main>
   </body>
+  <script
+    src="https://kit.fontawesome.com/b466796e6d.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
