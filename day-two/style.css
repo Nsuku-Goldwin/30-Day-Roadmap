@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+body {
+  background: rgb(90, 35, 141);
+}
+main {
+  width: 50%;
+  height: 100vh;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card {
+  width: 90%;
+  height: 85%;
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(255, 155, 217), rgb(255, 96, 122));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.design {
+  margin: 40px 0 40px 0;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 80px;
+}
+.message {
+  margin: 0px 0;
+  width: 65%;
+  max-width: 400px;
+}
+.alternative {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.671);
+}
+a {
+  color: rgba(255, 255, 255, 0.671);
+}
