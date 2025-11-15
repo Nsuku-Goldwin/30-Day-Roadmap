@@ -1,0 +1,66 @@
+:root {
+  --blue: rgb(0, 119, 255);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  font-family: monospace, sans-serif;
+}
+main {
+  background: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+}
+section {
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  width: 800px;
+  height: 400px;
+  /* border: 2px solid blue; */
+}
+.heading {
+  font-size: 1.6rem;
+  margin-top: 60px;
+}
+.promise {
+  margin: 16px auto 50px auto;
+}
+.email-card {
+  gap: 12px;
+}
+.email-card input {
+  width: 300px;
+  padding: 12px;
+  outline: none;
+}
+.email-card button {
+  width: 100px;
+  padding: 12px;
+  background: var(--blue);
+  outline: none;
+  border: none;
+  color: white;
+}
+.email-card button:hover {
+  background: rgba(0, 119, 255, 0.596);
+}
+.email-card button:active {
+  background: rgba(0, 119, 255, 0.308);
+}
+.agree {
+  margin-top: 30px;
+  gap: 12px;
+}
+.agree p {
+  width: 400px;
+}

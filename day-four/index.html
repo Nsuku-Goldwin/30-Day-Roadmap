@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subscribe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <main class="flex">
       <section>
-        <h1>Lets keep in touch</h1>
-        <p>Subscribe to keep up with fresh news and exciting updates</p>
-        <p>We promise not to spam you!</p>
-        <div>
+        <h1 class="heading">Lets keep in touch</h1>
+        <div class="promise">
+          <p>Subscribe to keep up with fresh news and exciting updates</p>
+          <p>We promise not to spam you!</p>
+        </div>
+
+        <div class="flex email-card">
           <input type="email" required placeholder="Enter your email address" />
           <button>SEND <i class="fa-solid fa-arrow-right"></i></button>
         </div>
-        <div>
+        <div class="flex agree">
           <input type="checkbox" />
           <p>
             I agree to my email address being stored and used receive monthly
