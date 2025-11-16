@@ -1,0 +1,78 @@
+:root {
+  --light: white;
+  --dark: rgb(0, 0, 14);
+  --green: rgb(0, 255, 0);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: monospace;
+}
+main {
+  width: 100vw;
+  min-height: 100vh;
+}
+section {
+  width: 40%;
+  min-width: 200px;
+  /* border: 2px solid red; */
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+div {
+  display: flex;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 12px;
+  height: 2.6rem;
+  padding: 0 8px;
+  align-items: center;
+  position: relative;
+}
+.light-tick {
+  border-radius: 50%;
+  color: var(--green);
+  font-size: 1.4rem;
+  margin: 8px;
+}
+.dark-tick {
+  border-radius: 50%;
+  color: var(--light);
+  background-color: var(--green);
+  font-size: 1.3rem;
+  margin: 8px;
+}
+i {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  line-height: 1;
+}
+.light {
+  color: var(--dark);
+  background-color: var(--light);
+}
+.dark {
+  color: var(--light);
+  background-color: var(--dark);
+}
+.remove {
+  position: absolute;
+  right: 1rem;
+}
+p {
+  margin-left: 0.8rem;
+}
+.sect2 div {
+  border-radius: 5rem;
+}
+.sect3 div {
+  .remove {
+    position: static;
+    margin-right: 12px;
+  }
+  justify-content: space-between;
+}
