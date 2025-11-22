@@ -14,14 +14,19 @@
 .dw {
   height: 3rem;
   width: 100%;
+  border: none;
+  border-radius: 4px;
 }
 /*  */
 main {
   width: 100vw;
   min-height: 100vh;
+  background-color: whitesmoke;
 }
 section {
-  border: 3px solid red;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
   width: 360px;
   height: auto;
   flex-direction: column;
@@ -36,7 +41,42 @@ h1 {
   margin-bottom: 12px;
 }
 .get-seen {
-  margin-top: 12px;
+  margin: 12px 0;
   /* padding: 0 2rem; */
   text-align: center;
+}
+button {
+  border: none;
+  color: white;
+}
+button:hover {
+  border: 1px solid grey;
+  cursor: pointer;
+}
+button:active {
+  color: black;
+}
+#fb-button {
+  background-color: rgb(80, 80, 199);
+}
+.or {
+  margin: 12px 0;
+  text-align: center;
+}
+.names {
+  gap: 4px;
+}
+input {
+  padding: 0 1rem;
+  border: 1px solid black !important;
+  margin: 4px 0;
+}
+#new-account {
+  background-color: rgb(7, 7, 92);
+  margin: 8px 0;
+}
+.disclaimer {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 10px;
 }

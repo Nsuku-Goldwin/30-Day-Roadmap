@@ -15,25 +15,53 @@
           <p class="get-seen">
             Take your art to the next level. Get it seen by millions of people
           </p>
-          <button class="dw">Join with facebook</button>
+          <button class="dw" id="fb-button">Join with facebook</button>
         </div>
         <!--  -->
-        <p>or</p>
+        <p class="or">or</p>
         <!--  -->
-        <div>
-          <div>
-            <input type="text" placeholder="First name" required class="dw" />
-            <input type="text" placeholder="Last name" required class="dw" />
+        <form>
+          <div class="flex names">
+            <input
+              type="text"
+              placeholder="First name"
+              required
+              class="dw"
+              name="first-name"
+            />
+            <input
+              type="text"
+              placeholder="Last name"
+              required
+              class="dw"
+              name="last-name"
+            />
           </div>
           <div>
-            <input type="email" placeholder="email" required class="dw" />
-            <input type="password" placeholder="password" required class="dw" />
+            <input
+              type="email"
+              placeholder="email"
+              required
+              class="dw"
+              name="email"
+            />
+            <input
+              type="password"
+              placeholder="password"
+              required
+              class="dw"
+              name="password"
+            />
           </div>
 
-          <button class="dw">Create New Account</button>
-        </div>
+          <button class="dw" id="new-account" type="submit">
+            Create New Account
+          </button>
+        </form>
         <!--  -->
-        <p>By joining you agree to our terms of service and privacy policy</p>
+        <p class="disclaimer">
+          By joining you agree to our terms of service and privacy policy
+        </p>
       </section>
     </main>
   </body>
