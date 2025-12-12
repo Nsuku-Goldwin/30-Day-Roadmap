@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: monospace, "Courier New", Courier;
+  font-weight: bold;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  min-width: 400px;
+  width: 60%;
+  max-width: 800px;
+  border: 3px solid red;
+  border-radius: 22px;
+  display: flex;
+}
+.login-card {
+  width: 60%;
+  height: 100%;
+  /* border: 2px solid green; */
+  padding: 50px;
+}
+.image-card {
+  background-color: rgb(0, 124, 233); /*replace with water i9mage*/
+  width: 40%;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.login-txt {
+  margin: 1rem 0 1.5rem 0;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.form-comps {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4px;
+}
+input {
+  border: 1px solid grey;
+}
+.action-card {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    width: 30%;
+    background-color: rgb(0, 124, 233);
+    border: none;
+    color: white;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+.log-with {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+.break-line {
+  border-top: 1px solid grey;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 20px 0;
+}

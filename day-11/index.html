@@ -4,29 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log in</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
-      <section>
+      <section class="login-card">
         <h1>Login</h1>
-        <p>
+        <p class="login-txt">
           Log in to your account to opload or download pictures, videos or music
         </p>
         <form action="submit">
-          <input type="email" required placeholder="Enter your email address" />
-          <div>
+          <input
+            type="email"
+            required
+            placeholder="Enter your email address"
+            class="form-comps"
+          />
+          <div class="action-card">
             <a href="">Forgot password</a>
-            <button type="submit">Next &#8594;</button>
+            <button type="submit" class="form-comps">Next &#8594;</button>
           </div>
         </form>
-        <p>Or log in with</p>
+        <span class="break-line"></span>
+        <p class="log-with">Or log in with</p>
         <div>
           <button><i class="fa-brands fa-facebook"></i>Facebook</button>
           <button><i class="fa-brands fa-google"></i>Google</button>
         </div>
       </section>
-      <section>
-        <img src="" alt="" />
+      <section class="image-card">
         <i class="fa-solid fa-xmark"></i>
       </section>
     </main>
