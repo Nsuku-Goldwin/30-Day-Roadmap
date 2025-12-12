@@ -4,28 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Card</title>
-    <script
-      src="https://kit.fontawesome.com/b466796e6d.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <div></div>
+    <main class="flex">
       <section>
-        <div>
+        <div class="flex header-container">
           <div>
-            <h1>Taciti eros morbi sapien sit nec ac</h1>
-            <p>Created on 11.02.2016</p>
+            <h1 class="head-text">Taciti eros morbi sapien sit nec ac</h1>
+            <p class="date-text">Created on 11.02.2016</p>
           </div>
-          <i class="fa-solid fa-ellipsis" onclick="alert('Hello')"></i>
+          <i class="fa-solid fa-ellipsis ellipsis" onclick="alert('Hello')"></i>
         </div>
-        <p>
+        <p class="main-text"  > 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod porro
           nesciunt asperiores recusandae explicabo cupiditate, odit id
           perferendis nemo odio. Voluptatibus ipsam sunt praesentium mollitia.
         </p>
-        <div>
+        <div class="flex progress-wrapper">
           <p>Tasks</p>
           <span class="progress-bar">
             <span class="progress"></span>
@@ -34,12 +30,17 @@
           <p>43%</p>
         </div>
         <div>
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
         </div>
       </section>
     </main>
+    <script
+      src="https://kit.fontawesome.com/b466796e6d.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </body>
 </html>
